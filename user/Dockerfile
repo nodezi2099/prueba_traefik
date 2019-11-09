@@ -7,4 +7,4 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 ENV FLASK_APP server.py
 
-CMD ["flask", "run", "--host", "192.34.58.155", "--port", "5000", "--with-threads"]
+CMD ["flask", "run", "--host", "0.0.0.0", "--port", "5000", "--with-threads"]
